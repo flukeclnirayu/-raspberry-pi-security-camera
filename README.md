@@ -9,7 +9,8 @@
 ### 2. ติดตั้ง MotionEye OS
 2.1 ดาวน์โหลดและติดตั้ง SD Memory Card Formatter จาก https://www.sdcard.org/downloads/formatter/  
 2.2 ใส่ SD Card ใน SD Card Reader เพื่อเชื่อมต่อเข้ากับคอมพิวเตอร์  
-2.3 ใช้โปรแกรม SD Memory Card Formatter ในการ Format SD Card (อย่าลืมเช็ค Drive Letter เช่น D:\ หรือ E:\ ว่าเป็นของ SD Card รึเปล่า)  
+2.3 ใช้โปรแกรม SD Memory Card Formatter ในการ Format SD Card  
+(อย่าลืมเช็ค Drive Letter เช่น D:\ หรือ E:\ ว่าเป็นของ SD Card รึเปล่า)  
 2.4 ดาวน์โหลดและติดตั้ง Win32DiskImager จาก https://sourceforge.net/projects/win32diskimager/  
 2.5 ดาวน์โหลด motioneyeos-raspberrypi4-20200606.img.xz หรือ MotionEye OS SD Card Image เวอร์ชั่นล่าสุด จาก https://github.com/ccrisan/motioneyeos/releases  
 2.6 แตกไฟล์ MotionEye OS SD Card Image ที่ได้ทำการดาวน์โหลดมา  
@@ -27,7 +28,8 @@ network={
   psk="NETWORK-PASSWORD"  
 }
 ```  
-3.3 เปลี่ยนข้อความ NETWORK-NAME และ NETWORK-PASSWORD เป็นชื่อ WiFi แล้วรหัสผ่านของเราตามลำดับ (ไม่ต้องลบ " ออก)  
+3.3 เปลี่ยนข้อความ NETWORK-NAME และ NETWORK-PASSWORD เป็นชื่อ WiFi แล้วรหัสผ่านของเราตามลำดับ  
+(ไม่ต้องลบ " ออก)  
 3.4 กด Save As ไปไว้ในหน้าแรกของ SD Card Drive (จะมีไฟล์ต่าง ๆ เช่น bcm2711-rpi-4-b.dtb, bootcode.bin, cmdline)
 ### 4. ถอด SD Card ที่เชื่อมต่อกับคอมพิวเตอร์แล้วนำไปใส่ในช่อง SD Card ของ Raspberry Pi 4
 ### 5. เสียบสาย Power Supply เข้ากับ Raspberry Pi 4
